@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.28
+         image: ghcr.io/habeebunissa22-sketch/nginx-demo:latest
           ports:
             - containerPort: 80
