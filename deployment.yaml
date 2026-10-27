@@ -13,8 +13,9 @@ spec:
       labels:
         app: nginx-demo
     spec:
-      containers:
+           containers:
         - name: nginx
           image: ghcr.io/habeebunissa22-sketch/nginx-demo:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
